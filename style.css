@@ -75,7 +75,7 @@ body {
     text-align: center;
   }
   
-  /* Fundo preto cobrindo toda a tela */
+
 .pagina {
     background-color: black;
     color: white;
@@ -83,13 +83,13 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow-y: auto; /* Permite rolar o conteúdo */
+    overflow-y: auto; 
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-  /* Estilo da seção de detalhes do jogador */
+  
   .jogador-detalhes {
     width: 80%;
     text-align: center;
@@ -99,7 +99,7 @@ body {
     border-radius: 10px;
   }
   
-  /* Imagem e informações do jogador */
+  
   .jogador-foto {
     max-width: 200px;
     border-radius: 50%;
@@ -110,7 +110,7 @@ body {
     margin: 5px 0;
   }
   
-  /* Seção de transferências */
+  
   .transferencias {
     width: 90%;
     display: flex;
@@ -120,7 +120,7 @@ body {
     margin: 20px auto;
   }
   
-  /* Caixa de cada transferência */
+  
   .transferencia {
     width: 200px;
     background-color: #1c1c1c;
