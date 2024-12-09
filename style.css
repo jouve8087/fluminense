@@ -1,0 +1,143 @@
+
+body {
+   background-color: green;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh;
+    background-color: white;
+    overflow: hidden; 
+  }
+  
+ 
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px; 
+    justify-items: center; 
+    padding: 20px;
+    width: 100%;  
+    height: 100%; 
+    max-width: 100%;
+    overflow-y: auto; 
+    box-sizing: border-box;  
+  }
+  
+ 
+  .box {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 100%; 
+    max-width: 250px; 
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;  
+    box-shadow: 0 4px 8px black;
+    transition: transform 0.3s ease-in-out;
+    opacity: 1; 
+    background-color: white;
+    margin: 10px; 
+  }
+  
+  
+  .box:hover {
+    transform: translateY(-10px);
+  }
+  
+  
+  .php {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;  
+  }
+  
+  
+  .nome {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: darkgray;
+    margin-bottom: 10px;
+  }
+  
+  
+  .camisa {
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+  }
+  
+  /* Fundo preto cobrindo toda a tela */
+.pagina {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: auto; /* Permite rolar o conteúdo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilo da seção de detalhes do jogador */
+  .jogador-detalhes {
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+  }
+  
+  /* Imagem e informações do jogador */
+  .jogador-foto {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 10px 0;
+  }
+  
+  .jogador-info p {
+    margin: 5px 0;
+  }
+  
+  /* Seção de transferências */
+  .transferencias {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  /* Caixa de cada transferência */
+  .transferencia {
+    width: 200px;
+    background-color: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .transferencia img {
+    width: 50px;
+    height: 50px;
+    margin: 5px 0;
+  }
+  
+  .transferencia p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
